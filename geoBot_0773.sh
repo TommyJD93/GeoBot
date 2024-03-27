@@ -37,7 +37,7 @@ echo
 
 print_animated "$GEOBOT" "$GREEN"
 
-str=": La tua missione, se sceglierai di accettarla, sarà quella di trovare la Chiave del Mondo, una serie di numeri e lettere, suddivisa in alcuni dei luoghi più famosi sparsi per il globo. Per riuscirci, dovrai fare affidamento sulle tue conoscenze geografiche e sulla tua capacità di decifrare gli indizi che ti saranno forniti lungo il cammino."
+str=": La tua missione, se sceglierai di accettarla, sarà quella di trovare la Chiave del Mondo, una serie di numeri e/o lettere, suddivisa in alcuni dei luoghi più famosi sparsi per il globo. Per riuscirci, dovrai fare affidamento sulle tue conoscenze geografiche e sulla tua capacità di decifrare gli indizi che ti saranno forniti lungo il cammino."
 print_animated "$str" "$WHITE"
 
 echo
