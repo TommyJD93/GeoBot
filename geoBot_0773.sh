@@ -46,7 +46,7 @@ echo
 
 print_animated "$GEOBOT" "$GREEN"
 
-str=": Il primo passo di questa caccia al tesoro globale è consultare la directory dei continenti. Qui, nascosti in piena vista, troverai indizi che celano le parti della chiave. Ricorda: ciascun continente nasconde un pezzo del puzzle che ti avvicinerà alla soluzione del livello. Quando ti chiederò di inserire la soluzione, inserisci i caratteri seguendo l'ordine alfabetico dei continenti in cui li hai trovati."
+str=": Il primo passo di questa caccia al tesoro globale è consultare la directory dei continenti. Qui, nascosti in piena vista, troverai indizi che celano le parti della chiave. Ricorda: non tutti i continenti nascondono un pezzo del puzzle. Quando ti chiederò di inserire la soluzione, inserisci i caratteri seguendo l'ordine alfabetico dei continenti in cui li hai trovati."
 print_animated "$str" "$WHITE"
 
 echo
